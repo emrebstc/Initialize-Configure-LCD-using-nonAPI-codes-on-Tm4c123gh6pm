@@ -7,19 +7,19 @@
 void clockayar();
 
 int main(void) {
-
+                           //For other functions, check out lcd.c
     clockayar();
     LCD_ayar();
 
         while (1) {
 
-            LCD_yaz("ileri-mikro",0);
+            LCD_yaz("ileri-mikro",0);  // "0" For print on first line
 
             SysCtlDelay(30000000);
 
-            LCD_temizle();
+            LCD_temizle(); // Clear LCD
 
-            LCD_sonrakisatiryaz("g220100351"); //diger satýra gecip yazýyor sonraki yazýlacak kelime yine bir sonraki satýrdan baslýyor
+            LCD_sonrakisatiryaz("15123121"); // for print on different line
 
             SysCtlDelay(30000000);
 
@@ -31,13 +31,13 @@ int main(void) {
 
             LCD_temizle();
 
-            LCD_sonrakisatiryaz("4.sinif");
+            LCD_sonrakisatiryaz("4.....");
 
             SysCtlDelay(30000000);
 
             LCD_temizle();
 
-            LCD_yaz("LCDodev",1);
+            LCD_yaz("LCDbaslat",1);
 
             SysCtlDelay(30000000);
 
