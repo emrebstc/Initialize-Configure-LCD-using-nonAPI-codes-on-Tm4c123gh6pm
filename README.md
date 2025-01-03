@@ -7,6 +7,8 @@ Required Components:
 3)Breadboard
 4)Jumper Cables
 
+Make sure you download library on "https://www.ti.com/tool/download/SW-TM4C" .295 version for code composer studio.
+
 ![image](https://github.com/user-attachments/assets/b0d6b157-da94-4626-9168-29ff779673de)
 
 
