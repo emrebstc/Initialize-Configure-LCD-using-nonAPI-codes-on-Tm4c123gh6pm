@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/b0d6b157-da94-4626-9168-29ff779673de)Tm4c123gh6pm
+![image](https://github.com/user-attachments/assets/b0d6b157-da94-4626-9168-29ff779673de)
+
+Tm4c123gh6pm
 Initialize-Configure-16x2LCD-using-nonAPI-codes
 
 Required Components:
